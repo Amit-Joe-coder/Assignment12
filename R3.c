@@ -3,7 +3,10 @@
 void oddN(int);
 int main()
 {
-    oddN(10);
+    int x;
+    printf("Enter any Number: ");
+    scanf("%d",&x);
+    oddN(x);
     return 0;
 }
 void oddN(int n)
