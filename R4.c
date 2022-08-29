@@ -3,7 +3,10 @@
 void R_oddN(int);
 int main()
 {
-    R_oddN(5);
+    int x;
+    printf("Enter any Number: ");
+    scanf("%d",&x);
+    R_oddN(x);
 }
 void R_oddN(int n)
 {
